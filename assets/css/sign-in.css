@@ -1,25 +1,25 @@
 html,
-corpo {
-  altura: 100%;
+body {
+  height: 100%;
 }
 
 .form-signin {
-  largura máxima: 330px;
-  preenchimento: 1rem;
+  max-width: 330px;
+  padding: 1rem;
 }
 
 .form-signin .form-floating:focus-within {
-  índice z: 2;
+  z-index: 2;
 }
 
 .form-signin input[type="email"] {
-  margem inferior: -1px;
-  borda-inferior-direita-radius: 0;
-  borda-inferior-esquerda-raio: 0;
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .form-signin input[type="password"] {
-  margem inferior: 10px;
-  borda-superior-esquerda-raio: 0;
-  raio superior direito da borda: 0;
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
